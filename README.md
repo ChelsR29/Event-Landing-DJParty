@@ -45,7 +45,6 @@ Ideal for DJs, event planners, and entertainment professionals seeking a stylish
 Here's a preview of the event page:
 
 ![Event Page](src/assets/images/eventpage.png)
-*An engaging overview with links to key sections.*
 
 ---
 
