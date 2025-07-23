@@ -38,11 +38,6 @@ Ideal for DJs, event planners, and entertainment professionals seeking a stylish
 - CORS proxy for development-only cross-origin request handling
 - Basic client-side validation for form inputs
 
-
----
-
-## Usage
-
 ---
 
 ## Screenshots
