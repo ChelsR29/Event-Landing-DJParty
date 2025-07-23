@@ -3,7 +3,7 @@ import Hero from './components/Hero';
 import Countdown from './components/Countdown';
 import About from './components/About';
 import Gallery from './components/Gallery';
-import RSVPForm from './components/RSVPform';
+import RSVPForm from './components/RSVPForm';
 import Footer from './components/Footer';
 import './App.css';
 
