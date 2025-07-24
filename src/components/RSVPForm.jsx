@@ -31,23 +31,21 @@ function RSVPForm() {
         body: formData,
       });
 
-      const result = await response.json();
-
-      if (result?.result === 'Success') {
+      // ✅ Even if the CORS headers are missing, you can check status code
+      if (response.ok) {
         setSubmitted(true);
         setTimeout(() => {
           setForm({ name: '', email: '', guests: '' });
           setSubmitted(false);
         }, 4000);
       } else {
-        throw new Error(result.message || 'Unexpected response from server.');
+        throw new Error('Failed to submit RSVP.');
       }
     } catch (error) {
       console.error('RSVP submission failed:', error);
       alert('Something went wrong. Please try again.');
     }
   };
-
 
 
   return (
