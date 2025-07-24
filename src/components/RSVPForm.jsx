@@ -19,10 +19,9 @@ function RSVPForm() {
     }
 
     try {
-      const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
       const scriptUrl = 'https://script.google.com/macros/s/AKfycbzoWRsjeYfAqCYe32vOOm_A5QKg2naxP6cCycytHRf6iNToPUn2SFPBvb3TZQuB8gB3lA/exec';
 
-      const response = await fetch(proxyUrl + scriptUrl, {
+      const response = await fetch(scriptUrl, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
