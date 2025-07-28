@@ -19,9 +19,8 @@ function RSVPForm() {
     }
 
     try {
-      const scriptUrl = 'https://script.google.com/macros/s/AKfycbzoWRsjeYfAqCYe32vOOm_A5QKg2naxP6cCycytHRf6iNToPUn2SFPBvb3TZQuB8gB3lA/exec';
 
-      const response = await fetch(scriptUrl, {
+      const response = await fetch('/.netlify/functions/submitRSVP', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
